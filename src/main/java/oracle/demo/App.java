@@ -43,7 +43,9 @@ public class App extends Application {
             MovieReviewServiceResource.class,
             MovieReviewServiceRestClientResource.class,
             SecurityResource.class,
-            JPAExampleResource.class
+            JPAExampleResource.class,
+            oracle.demo.grpc.javaobj.GrpcResource.class,
+            oracle.demo.grpc.protobuf.GrpcResource.class
         );
     }
 }
